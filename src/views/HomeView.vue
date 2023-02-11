@@ -1,15 +1,15 @@
 <template>
-  <HelloWorld />
+  <PersonalData />
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+import Vue from "vue";
+import PersonalData from "@/components/PersonalData"; // @ is an alias to /src
 
 export default Vue.extend({
-  name: 'HomeView',
+  name: "HomeView",
   components: {
-    HelloWorld,
+    PersonalData,
   },
 });
 </script>
